@@ -1,0 +1,22 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
+@import 'css/variables.css';
+
+@import 'css/utilities/default.css';
+@import 'css/utilities/typography.css';
+@import 'css/utilities/colors.css';
+@import 'css/utilities/spacing.css';
+@import 'css/utilities/filters.css';
+@import 'css/utilities/borders.css';
+@import 'css/utilities/boxmodel.css';
+
+@import 'css/components/button.css';
+@import 'css/components/icon-wrap.css';
+@import 'css/components/fields.css';
+@import 'css/components/search.css';
+@import 'css/components/sidepanel.css';
+
+html {
+    overflow: auto;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}

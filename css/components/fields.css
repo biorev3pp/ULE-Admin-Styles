@@ -1,0 +1,87 @@
+/* Input Component */
+
+.input-label {
+    color: var(--grey-600);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input[type="checkbox" i] {
+    border-radius: var(--sm);
+}
+
+.input {
+    font-family: var(--body);
+    box-sizing: border-box;
+    display: flex;
+    height: 42px;
+    padding: 11px 12px;
+    align-items: center;
+    border-radius: 8px;
+    outline: 1px solid var(--grey-300);
+    border: none;
+    background: var(--white);
+    &:focus {
+        outline: 1px solid var(--purple-500);
+    }
+    &:disabled {
+        background-color: var(--grey-100);
+        cursor: not-allowed;
+    }
+    &[state = error] {
+        outline: 2px solid var(--red-500);
+    }
+    &[state = checkbox] {
+        display: inline;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        height: 1rem;
+        width: 1rem;
+        accent-color: var(--grey-900);
+    }
+    &[state = radio] {
+        display: inline;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        height: 1rem;
+        width: 1rem;
+        accent-color: var(--grey-900);
+    }
+}
+
+/* text area component */
+
+.text-area {
+    font-family: var(--body);
+    box-sizing: border-box;
+    display: flex;
+    padding: 11px 12px;
+    align-items: center;
+    border-radius: 8px;
+    outline: 1px solid var(--grey-300);
+    border: none;
+    background: var(--white);
+    resize: vertical;
+    &:focus {
+        outline: 1px solid var(--purple-500);
+    }
+    &:disabled {
+        background-color: var(--grey-100);
+        cursor: not-allowed;
+    }
+    &[state = error] {
+        outline: 2px solid var(--red-500);
+    }
+}
+
+input[type="range" i] {
+    appearance: auto;
+    cursor: pointer;
+    color: light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+    padding: initial;
+    border: initial;
+    margin: 2px;
+    accent-color: var(--purple-500);
+}

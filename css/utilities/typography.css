@@ -1,0 +1,198 @@
+.h1 {
+    font-size: var(--font-h1);
+}
+
+.h2 {
+    font-size: var(--font-h2);
+}
+
+.h3 {
+    font-size: var(--font-h3);
+}
+
+.h4 {
+    font-size: var(--font-h4);
+}
+
+.h5 {
+    font-size: var(--font-h5);
+}
+
+.h6 {
+    font-size: var(--font-h6);
+}
+
+.body {
+    font-size: var(--font-body);
+}
+
+.font-sm {
+    font-size: var(--font-sm);
+}
+
+.font-xs {
+    font-size: var(--font-xs);
+}
+
+/* font Style */
+
+.italic {
+    font-style: italic;
+}
+
+/* font weight */
+
+.font-thin {
+    font-weight: var(--w-100);
+}
+
+.font-extralight {
+    font-weight: var(--w-200);
+}
+
+.font-light {
+    font-weight: var(--w-300);
+}
+
+.font-normal {
+    font-weight: var(--w-400);
+}
+
+.font-medium {
+    font-weight: var(--w-500);
+}
+
+.font-semibold {
+    font-weight: var(--w-600);
+}
+
+.font-bold {
+    font-weight: var(--w-700);
+}
+
+.font-extrabold {
+    font-weight: var(--w-800);
+}
+
+.font-black {
+    font-weight: var(--w-900);
+}
+
+/* alignment */
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-end {
+    text-align: end;
+}
+
+/* Truncate */
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text-ellipsis {
+    text-overflow: ellipsis;
+}
+
+.text-clip {
+    text-overflow: clip;
+}
+
+/* Line clamp */
+
+.line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.line-clamp-4 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.line-clamp-5 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+
+.line-clamp-6 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+}
+
+.line-clamp-none {
+    overflow: visible;
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-line-clamp: none;
+}
+
+/* whitespace */
+
+.whitespace-normal {
+    white-space: normal;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.whitespace-pre {
+    white-space: pre;
+}
+
+.whitespace-pre-line {
+    white-space: pre-line;
+}
+
+.whitespace-pre-wrap {
+    white-space: pre-wrap;
+}
+
+.whitespace-break-spaces {
+    white-space: break-spaces;
+}

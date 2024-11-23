@@ -1,0 +1,162 @@
+.bgc-primary {
+    background-color: var(--purple-500);
+}
+.bgc-primary-subtle {
+    background-color: var(--purple-100);
+}
+
+.bgc-secondary {
+    background-color: var(--purple-600);
+}
+.bgc-secondary-subtle {
+    background-color: var(--purple-200);
+}
+
+.bgc-success {
+    background-color: var(--green-500);
+}
+.bgc-success-subtle {
+    background-color: var(--green-100);
+}
+
+.bgc-danger {
+    background-color: var(--red-500);
+}
+.bgc-danger-subtle {
+    background-color: var(--red-100);
+}
+
+.bgc-warning {
+    background-color: var(--orange-500);
+}
+.bgc-warning-subtle {
+    background-color: var(--orange-100);
+}
+
+.bgc-info {
+    background-color: var(--indigo-500);
+}
+.bgc-info-subtle {
+    background-color: var(--indigo-100);
+}
+
+
+.bgc-light {
+    background-color: var(--grey-200);
+}
+.bgc-light-subtle {
+    background-color: var(--grey-100);
+}
+
+
+.bgc-dark {
+    background-color: var(--grey-900);
+}
+.bgc-dark-subtle {
+    background-color: var(--grey-600);
+}
+
+
+.bgc-body-tertiary {
+    background-color: var(--grey-500);
+}
+.bgc-body-secondary {
+    background-color: var(--grey-400);
+}
+.bgc-body {
+    background-color: var(--grey-300);
+}
+
+
+.bgc-black {
+    background-color: var(--black);
+}
+.bgc-white {
+    background-color: var(--white);
+}
+.bgc-transparent {
+    background-color: transparent;
+}
+
+
+/* Color */
+
+.color-primary {
+    color: var(--purple-500);
+}
+.color-primary-subtle {
+    color: var(--purple-100);
+}
+
+.color-secondary {
+    color: var(--purple-600);
+}
+.color-secondary-subtle {
+    color: var(--purple-200);
+}
+
+.color-success {
+    color: var(--green-500);
+}
+.color-success-subtle {
+    color: var(--green-100);
+}
+
+.color-danger {
+    color: var(--red-500);
+}
+.color-danger-subtle {
+    color: var(--red-100);
+}
+
+.color-warning {
+    color: var(--orange-500);
+}
+.color-warning-subtle {
+    color: var(--orange-100);
+}
+
+.color-info {
+    color: var(--indigo-500);
+}
+.color-info-subtle {
+    color: var(--indigo-100);
+}
+
+
+.color-light {
+    color: var(--grey-200);
+}
+.color-light-subtle {
+    color: var(--grey-100);
+}
+
+
+.color-dark {
+    color: var(--grey-900);
+}
+.color-dark-subtle {
+    color: var(--grey-600);
+}
+
+
+.color-body-tertiary {
+    color: var(--grey-500);
+}
+.color-body-secondary {
+    color: var(--grey-400);
+}
+.color-body {
+    color: var(--grey-300);
+}
+
+
+.color-black {
+    color: var(--black);
+}
+.color-white {
+    color: var(--white);
+}
+.color-transparent {
+    color: transparent;
+}

@@ -1,0 +1,10 @@
+/* side panel */
+
+.side-panel {
+    background-color: var(--grey-900);
+    min-width: 350px;
+    width: fit-content;
+    height: 100vh;
+    transition: 300ms;
+    transition-property: width, min-width;
+}

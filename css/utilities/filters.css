@@ -1,0 +1,160 @@
+/* Blur */
+
+.blur-none {filter:  blur(0);}
+.blur-sm {filter: blur(4px);}
+.blur {filter: blur(8px);}
+.blur-md {filter: blur(12px);}
+.blur-lg {filter: blur(16px);}
+.blur-xl {filter: blur(24px);}
+.blur-2xl {filter: blur(40px);}
+.blur-3xl {filter: blur(64px);}
+
+
+/* Shadows */
+
+.drop-shadow-sm	{ filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05)); }
+.drop-shadow	{ filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); }
+.drop-shadow-md	{ filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06)); }
+.drop-shadow-lg	{ filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1)); }
+.drop-shadow-xl	{ filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08)); }
+.drop-shadow-2xl { filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15)); }
+.drop-shadow-none { filter: drop-shadow(0 0 #0000); }
+
+/* Shadow Color */
+
+.shadow-inherit	{color: inherit;}
+.shadow-current	{color: currentColor;}
+.shadow-transparent	{color: transparent;}
+.shadow-black	{color: #000;}
+.shadow-white	{color: #fff;}
+
+
+.shadow-purple-100 { --purple-100}
+.shadow-purple-200 {--purple-200}
+.shadow-purple-300 {--purple-300}
+.shadow-purple-400 {--purple-400}
+.shadow-purple-500 {--purple-500}
+.shadow-purple-600 {--purple-600}
+.shadow-purple-700 {--purple-700}
+
+.shadow-grey-100 {--grey-100}
+.shadow-grey-200 {--grey-200}
+.shadow-grey-300 {--grey-300}
+.shadow-grey-400 {--grey-400}
+.shadow-grey-500 {--grey-500}
+.shadow-grey-600 {--grey-600}
+.shadow-grey-700 {--grey-700}
+.shadow-grey-800 {--grey-800}
+.shadow-grey-900 {--grey-900}
+
+ .shadow-red-100 {--red-100}
+ .shadow-red-200 {--red-200}
+ .shadow-red-300 {--red-300}
+ .shadow-red-400 {--red-400}
+ .shadow-red-500 {--red-500}
+ .shadow-red-600 {--red-600}
+ .shadow-red-700 {--red-700}
+ .shadow-red-800 {--red-800}
+ .shadow-red-900 {--red-900}
+
+.shadow-orange-100 {--orange-100}
+.shadow-orange-200 {--orange-200}
+.shadow-orange-300 {--orange-300}
+.shadow-orange-400 {--orange-400}
+.shadow-orange-500 {--orange-500}
+.shadow-orange-600 {--orange-600}
+.shadow-orange-700 {--orange-700}
+.shadow-orange-800 {--orange-800}
+.shadow-orange-900 {--orange-900}
+
+.shadow-yellow-100 {--yellow-100}
+.shadow-yellow-200 {--yellow-200}
+.shadow-yellow-300 {--yellow-300}
+.shadow-yellow-400 {--yellow-400}
+.shadow-yellow-500 {--yellow-500}
+.shadow-yellow-600 {--yellow-600}
+.shadow-yellow-700 {--yellow-700}
+.shadow-yellow-800 {--yellow-800}
+.shadow-yellow-900 {--yellow-900}
+
+.shadow-green-100 {--green-100}
+.shadow-green-200 {--green-200}
+.shadow-green-300 {--green-300}
+.shadow-green-400 {--green-400}
+.shadow-green-500 {--green-500}
+.shadow-green-600 {--green-600}
+.shadow-green-700 {--green-700}
+.shadow-green-800 {--green-800}
+.shadow-green-900 {--green-900}
+
+.shadow-teal-100 {--teal-100}
+.shadow-teal-200 {--teal-200}
+.shadow-teal-300 {--teal-300}
+.shadow-teal-400 {--teal-400}
+.shadow-teal-500 {--teal-500}
+.shadow-teal-600 {--teal-600}
+.shadow-teal-700 {--teal-700}
+.shadow-teal-800 {--teal-800}
+.shadow-teal-900 {--teal-900}
+
+.shadow-blue-100 {--blue-100}
+.shadow-blue-200 {--blue-200}
+.shadow-blue-300 {--blue-300}
+.shadow-blue-400 {--blue-400}
+.shadow-blue-500 {--blue-500}
+.shadow-blue-600 {--blue-600}
+
+.shadow-indigo-100 {--indigo-100}
+.shadow-indigo-200 {--indigo-200}
+.shadow-indigo-300 {--indigo-300}
+.shadow-indigo-400 {--indigo-400}
+.shadow-indigo-500 {--indigo-500}
+.shadow-indigo-600 {--indigo-600}
+.shadow-indigo-700 {--indigo-700}
+.shadow-indigo-800 {--indigo-800}
+.shadow-indigo-900 {--indigo-900}
+
+.shadow-pink-100 {--pink-100}
+.shadow-pink-200 {--pink-200}
+.shadow-pink-300 {--pink-300}
+.shadow-pink-400 {--pink-400}
+.shadow-pink-500 {--pink-500}
+.shadow-pink-600 {--pink-600}
+.shadow-pink-700 {--pink-700}
+.shadow-pink-800 {--pink-800}
+.shadow-pink-900 {--pink-900}
+
+/* background blur */
+
+.backdrop-blur-none	{backdrop-filter: ;}
+.backdrop-blur-sm	{backdrop-filter: blur(4px);}
+.backdrop-blur	    {backdrop-filter: blur(8px);}
+.backdrop-blur-md	{backdrop-filter: blur(12px);}
+.backdrop-blur-lg	{backdrop-filter: blur(16px);}
+.backdrop-blur-xl	{backdrop-filter: blur(24px);}
+.backdrop-blur-2xl	{backdrop-filter: blur(40px);}
+.backdrop-blur-3xl	{backdrop-filter: blur(64px);}
+
+/* Transparency */
+
+.opacity-0	{opacity: 0;}
+.opacity-5	{opacity: 0.05;}
+.opacity-10	{opacity: 0.1;}
+.opacity-15	{opacity: 0.15;}
+.opacity-20	{opacity: 0.2;}
+.opacity-25	{opacity: 0.25;}
+.opacity-30	{opacity: 0.3;}
+.opacity-35	{opacity: 0.35;}
+.opacity-40	{opacity: 0.4;}
+.opacity-45	{opacity: 0.45;}
+.opacity-50	{opacity: 0.5;}
+.opacity-55	{opacity: 0.55;}
+.opacity-60	{opacity: 0.6;}
+.opacity-65	{opacity: 0.65;}
+.opacity-70	{opacity: 0.7;}
+.opacity-75	{opacity: 0.75;}
+.opacity-80	{opacity: 0.8;}
+.opacity-85	{opacity: 0.85;}
+.opacity-90	{opacity: 0.9;}
+.opacity-95	{opacity: 0.95;}
+.opacity-100 {opacity: 1;}

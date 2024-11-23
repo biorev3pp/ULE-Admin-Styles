@@ -1,0 +1,70 @@
+.admin-button {
+    padding: 10px 20px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: var(--body);
+    font-size: var(--font-body); 
+    font-weight: var(--w-500); 
+    color: var(--white);
+    background: var(--purple-500);
+    border: none; 
+    border-radius: var(--xs);
+    cursor: pointer;
+    &:hover {
+      background: var(--purple-600);
+    }
+    &:active {
+      background: var(--purple-700); 
+    }
+    &:focus-visible {
+      outline: 4px solid var(--purple-200); 
+    }
+    /* Secondary */
+    &[state = secondary] {
+      color: var(--dark);
+      background: var(--grey-200);
+      &:hover {
+        color: var(--dark);
+        background: var(--grey-300);
+      }
+      &:active {
+        background: var(--grey-400);
+      }
+    }
+    /* Outlined */
+    &[state = outlined] {
+      box-sizing: border-box;
+      color: var(--purple-500);
+      background: var(--white);
+      border: 2px solid var(--purple-500);
+      &:hover {
+        color: var(--purple-500);
+        background-color: var(--purple-100);
+      }
+      &:active {
+        background: var(--purple-200);
+      }
+    }
+    &[state = icon] {
+      width: 2rem;
+      height: 2rem;
+      padding: 0;
+      border-radius: var(--sm);
+      color: var(--dark);
+      font-size: var(--md);
+      background: var(--grey-200);
+      &:hover {
+        color: var(--dark);
+        background: var(--grey-300);
+      }
+    }
+    /* Disabled */
+    &:disabled {
+      background: var(--purple-200);
+      cursor: not-allowed;
+      &:hover {
+        background-color: var(--purple-200);
+      }
+    }
+  }

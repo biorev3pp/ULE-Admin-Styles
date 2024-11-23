@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULE</title>
+    <link rel="stylesheet" href="demopage.css">
+    <link rel="stylesheet" href="css/icons/ucon.css">
+    <link rel="stylesheet" href="css/icons/ucon-embedded.css">
+</head>
+
+<body>
+    <main>
+        <aside class="side-panel">
+            <button id="l-btn">•</button>
+        </aside>
+        <div class="flex flex-col w-full">
+            <nav id="nav" class="flex flex-col">
+                <header class="header flex justify-between">
+                    <div class="search">
+                        <input type="search" placeholder="Ctrl + P">
+                        <i class="icon-search"></i>
+                    </div>
+                    <div class="flex justify-between gap-lg">
+                        <div id="notifications" class="flex flex-row items-center gap-sm c-pointer">
+                            <button class="admin-button" state="icon"><i class="icon-notification"></i></button>
+                            Notifications
+                        </div>
+                        <div id="profile" class="flex flex-row items-center gap-sm c-pointer">
+                            <button class="admin-button" state="icon"><i class="icon-profile"></i></button>
+                            Profile
+                        </div>
+                    </div>
+                </header>
+                <div class="nav-lebel">
+                    Label
+                </div>
+            </nav>
+            <div id="content-box" class="flex w-full h-full">
+                <div id="content" class="flex w-full h-full">
+                    <div class="steps">
+
+                    </div>
+                    <div id="step-details" class="flex flex-col justify-between">
+                        <div class="step-heading w-full">
+                            <div>
+                                <h3>Register</h3>
+                                <p class="c-grey-500">Dynamic Label</p>
+                            </div>
+                        </div>
+                        <div class="step-content w-full flex flex-row">
+                            <div class="personal-info b-box">
+                                <h4>Personal Info</h4>
+                                <div class="flex flex-col gap-md w-full b-box">
+                                    <li class="flex flex-col gap-sm w-full">
+                                        <label for="Name">Name</label>
+                                        <input id="Name" class="input w-full" type="text">
+                                    </li>
+                                    <li class="flex flex-col gap-sm w-full">
+                                        <label for="Email">Email</label>
+                                        <input id="Email" class="input w-full" type="email">
+                                    </li>
+                                    <li class="flex flex-col gap-sm w-full">
+                                        <label for="Phone">Phone</label>
+                                        <input id="Phone" class="input w-full" type="tel">
+                                    </li>
+                                    <li class="flex flex-col gap-sm w-full">
+                                        <label for="Tags">Tags</label>
+                                        <input id="Tags" class="input w-full" type="text">
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="password">
+                                <h4>Password</h4>
+                                <div class="flex flex-col gap-md w-full b-box">
+                                    <li class="flex flex-col gap-sm w-full">
+                                        <label for="Password">Password</label>
+                                        <input id="Password" class="input w-full" type="password">
+                                    </li>
+                                    <li class="flex flex-col gap-sm w-full">
+                                        <label for="C-Password">Confirm Password</label>
+                                        <input id="C-Password" class="input w-full" type="password">
+                                    </li>   
+                                </div>
+                                <div class="notes w-full">
+                                    <li class="flex flex-col gap-sm w-full">
+                                        <label for="Notes">Notes</label>
+                                        <textarea style="max-height: 120px;" id="Notes" class="text-area w-full" type="text" rows="4"></textarea>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-footer w-full">
+                            <a href="" style="padding-inline: 4rem;" class="admin-button">Create Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+    </main>
+</body>
+<script>
+    let aside = document.querySelector(".side-panel");
+    let lever = document.querySelector("#l-btn");
+
+    function collapse() {
+        if (aside.style.minWidth !== "0px") {
+            aside.style.minWidth = "0px";
+        } else {
+            aside.style.minWidth = "350px";
+        }
+
+    }
+    lever.addEventListener("click", collapse);
+</script>
+
+</html>

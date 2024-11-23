@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.d-none {
+    display: none;
+}
+
+.a-none {
+    appearance: none;
+}
+
+.c-grey-500 {
+    color: var(--grey-500);
+}
+
+input {
+    border: var(--grey-500);
+    outline: var(--grey-500);
+}
+
+/* Firefox */
+::placeholder {
+    color: var(--grey-500);
+    opacity: 1;
+}
+
+/* Edge 12-18 */
+::-ms-input-placeholder {
+    color: var(--grey-500);
+}
+
+.lst-none {
+    list-style-type: none;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+
